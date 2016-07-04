@@ -3,7 +3,7 @@
   "description": "Test jenerator",
   "license": "MIT",
   "author": "Mark Feltner",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": "https://github.com/feltnerm/tjent.git",
   "main": "index.js",
   "bin": {
