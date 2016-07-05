@@ -1,5 +1,8 @@
 # tjent
+
 Minimize time writing Javascript test boilerplate.
+
+[![Build Status](https://travis-ci.org/feltnerm/tjent.svg?branch=master)](https://travis-ci.org/feltnerm/tjent)
 
 Features:
 - [x] Generate Jasmine test boilerplate
