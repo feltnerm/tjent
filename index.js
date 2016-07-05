@@ -44,7 +44,7 @@ const renderTemplate = (templatePath, { componentName, componentImportPath }) =>
  **/
 const isJsx = (astBody) => {
   return astBody
-    .filter(({type}) => type === 'ImportDeclaration' )
+    .filter(({type}) => type === 'ImportDeclaration')
     .filter((importStatement) => {
       return importStatement.specifiers.filter(({ type, local }) => {
         return type === 'ImportDefaultSpecifier' && local.type === 'Identifier' && local.name === 'React'
