@@ -16,9 +16,10 @@
     "recast": "0.11.10"
   },
   "devDependencies": {
+    "faucet": "0.0.1",
     "tape": "4.6.0"
   },
   "scripts": {
-    "test": "tape tests/test.js"
+    "test": "tape tests/test.js | faucet"
   }
 }
