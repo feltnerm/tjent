@@ -10,8 +10,7 @@
     "tjent": "bin/tjent.js"
   },
   "dependencies": {
-    "acorn-jsx": "3.0.1",
-    "acorn-object-spread": "1.0.0",
+    "babylon": "6.8.3",
     "change-case": "3.0.0",
     "mustache": "2.2.1",
     "recast": "0.11.10"
